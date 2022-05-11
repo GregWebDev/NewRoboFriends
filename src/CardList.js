@@ -4,7 +4,7 @@ import {robots} from "./robots";
 
 
 const CardList = (props) => {
-//these are the new changes
+//these are the new changes for this project
     return(
         <div>
             {robots.map((user, i) => {
