@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "./Card";
-import {robots} from "./robots";
+import "./robots";
 
 
-const CardList = (props) => {
+const CardList = ({robots}) => {
     return(
         <div>
             {robots.map((user, i) => {
